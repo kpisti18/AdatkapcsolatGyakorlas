@@ -71,10 +71,10 @@ namespace AdatkapcsolatGyakorlas
 
         private void btTorol_Click(object sender, EventArgs e)
         {
-            tbFovaros.Text = "";
-            tbTerulet.Text = "";
-            tbNepesseg.Text = "";
-            tbAutojel.Text = "";
+            tbFovaros.Text = String.Empty;
+            tbTerulet.Text = String.Empty;
+            tbNepesseg.Text = String.Empty;
+            tbAutojel.Text = String.Empty;
         }
 
         private void újRekordFelvételeToolStripMenuItem1_Click(object sender, EventArgs e)
